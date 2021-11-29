@@ -1,22 +1,23 @@
-baseURL: 'https://kokkaso.github.io/kokkaso/agis/'
+baseurl: https://my_gisma_name.github.io/my_repo_name/
 publishDir: docs
+title: my fancy stuff  # Website Name 
 languageCode: en-us
-title: sophiasblog
-copyright: ''
-paginate: 6
+publishDir: docs
+#paginate: 6
 googleAnalytics: ''
 theme: hugo-theme-minima-gisma
 author:
-  description: Welcome Note
-  name: ''
-  slogon: ''
+  description: "i am the fancy author of this fancy repo"
+  name: "joe cool"
 params:
+  rname: my_reponame
   comment: utterances
+  rname: my_repo_name
   displayDate: yes
   disqus:
     shortname: hugo-minima
-  globalFontFamily: Helvatica sans-serif
-  iam: ''
+  globalFontFamily: Helvatica, sans-serif
+  iam: I am
   ovo:
     placeholder: ''
     server: ''
@@ -24,15 +25,15 @@ params:
   social:
     - name: github
       svg: ''
-      url: https://github.com/gisma-courses/gi-modules
+      url: https://github.com/my_repo_name
   subtitle: ''
   switch:
     - "\U0001F31A"
     - "\U0001F31D"
   timeformat: Jan 02, 2006
   utterances:
-    issueTerm: pathname
-    repo: mygithubname/myreponame
+    issueTerm: comments
+    repo: my-gihub-name/my-github-blogrepo
 menu:
   main:
     - name: Home
@@ -41,14 +42,14 @@ menu:
     - name: Categories
       url: /categories
       weight: 2
-    - name: Series
-      url: /series
-      weight: 3
     - name: Tags
       url: /tags
+      weight: 3
+    - name: About
+      url: /about
+      weight: 4
 taxonomies:
   category: categories
-  series: series
   tag: tags
 markup:
   highlight:
