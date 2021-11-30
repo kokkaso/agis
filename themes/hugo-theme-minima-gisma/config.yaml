@@ -1,4 +1,4 @@
-baseurl: https://kokkaso.github.io/kokkaso/agis/ 
+baseurl: https://kokkaso.github.io/agis/ 
 publishDir: docs
 title: sophiasblog  # Website Name 
 languageCode: en-us
